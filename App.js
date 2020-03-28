@@ -19,7 +19,6 @@ export default function App() {
           <Text>건물2</Text>
           <Text>건물3</Text>
         </View>
-
       </View>
     </View>
   );
@@ -31,35 +30,32 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     justifyContent: 'center',
   },
-  title:{
-    flex:1,
-    alignItems:'center',
+  title: {
+    flex: 1,
+    alignItems: 'center',
     paddingTop: 60,
-    paddingLeft:10,
-    paddingRight:10,
+    paddingLeft: 10,
+    paddingRight: 10,
   },
-  titleText:{
-    fontSize:20,
-    fontWeight:'bold',
+  titleText: {
+    fontSize: 20,
+    fontWeight: 'bold',
   },
-  navText:{
-    fontSize:14,
-    fontWeight:'bold',
+  navText: {
+    fontSize: 14,
+    fontWeight: 'bold',
   },
-  nav:{
-    flexDirection: "row",
-    flex:1,
-    justifyContent:'space-around'
+  nav: {
+    flexDirection: 'row',
+    flex: 1,
+    justifyContent: 'space-around',
   },
-  list:{
-    margin : 20,
+  list: {
+    margin: 20,
     padding: 10,
-    justifyContent:'flex-start',
-    alignItems:'center',
-    flex:13,
-    backgroundColor:'#6699ff',
-    
-    
-
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    flex: 13,
+    backgroundColor: '#6699ff',
   },
 });
